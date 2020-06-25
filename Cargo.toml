@@ -1,0 +1,12 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+authors = ["{{authors}}"]
+edition = "2018"
+
+[dependencies]
+clap-verbosity-flag = "0.3"
+structopt = "0.3"
+log = "0.4"
+simplelog = { version = "0.8", default-features = false }
+anyhow = "1.0"
