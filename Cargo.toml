@@ -14,7 +14,7 @@ path = "src/daemon/main.rs"
 
 [lib]
 name = "{{crate_name}}"
-path = "src/shared/lib.rs
+path = "src/shared/lib.rs"
 
 [dependencies]
 clap-verbosity-flag = "0.3"
