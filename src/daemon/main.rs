@@ -14,6 +14,6 @@ fn main() -> Result<()>{
     if let Some(level) = opt.verbose.log_level() {
         SimpleLogger::init(level.to_level_filter(), Config::default())?;
     }
-    log::debug!("opt={:?}", opt.verbose.log_level());
+    log::debug!("opt={:?}", opt);
     Ok(())
 }
